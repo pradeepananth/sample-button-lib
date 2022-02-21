@@ -1,13 +1,9 @@
-import React from 'react';
+import React from "react";
 
 interface IButtonProps {
-	text: string;
+  text: string;
 }
 
-export const Button: React.FC<IButtonProps>  = ({ text }) => {
-    return (
-        <button type="button">
-            {text}
-        </button>
-    )
+export const Button: React.FC<IButtonProps> = ({ text }) => {
+  return <button type="button">{text}</button>;
 };
